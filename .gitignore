@@ -1,4 +1,7 @@
 *.class
+*.xml
+*.html
+*.log
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
@@ -28,12 +31,4 @@ Baublebar/.classpath
 sftp-config.json
 *.un~
 
-*.xml
 
-*.html
-
-*.html
-
-*.xml
-
-*.log
