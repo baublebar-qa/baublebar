@@ -27,3 +27,5 @@ Baublebar/.classpath
 .settings/*
 sftp-config.json
 *.un~
+
+*.xml
