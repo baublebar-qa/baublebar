@@ -14,8 +14,8 @@ hs_err_pid*
 # report files #
 #############
 .log
-Baublebar/test-output/
-Baublebar/bin/
+Baublebar/test-output/*
+Baublebar/bin/*
 Baublebar/.classpath
 
 
