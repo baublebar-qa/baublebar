@@ -40,3 +40,9 @@ Baublebar/test-output/Baublebar/CreateAccountTest.xml
 Baublebar/test-output/Baublebar/SignupForDiscountTest.html
 
 Baublebar/test-output/Baublebar/SignupForDiscountTest.xml
+
+*.xml
+
+Baublebar/test-output/emailable-report.html
+
+Baublebar/test-output/index.html
