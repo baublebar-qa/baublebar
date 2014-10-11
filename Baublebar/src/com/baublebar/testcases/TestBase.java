@@ -73,7 +73,9 @@ public class TestBase {
 				//capabilities.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);
 				driver = new InternetExplorerDriver(capabilities);
 			} else if(CONFIG.getProperty("browser").equals("Chrome")){
-				File file = new File("C:\\chromedriver_win32_2.2\\chromedriver.exe");
+				String path = System.getProperty("user.dir")+"/chromedriver";
+				System.out.println(path);
+				File file = new File(path);
 				System.setProperty("webdriver.chrome.driver", file.getAbsolutePath());
 				DesiredCapabilities capabilities = new DesiredCapabilities();
 				driver=new ChromeDriver(capabilities);
